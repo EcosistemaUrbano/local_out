@@ -1,0 +1,380 @@
+/*
+Theme Name: local out
+Theme URI: http://localout.eu
+Description: Theme that transforms WordPress into an informative - blogging platform.
+Version: 2.0
+Author: Luis Franco Albanes
+Author URI: http://www.francoalbanes.com
+Tags: responsive, jquery, blog, informative
+
+    Localout v2.0
+    http://www.francoalbanes.com
+
+    This theme was designed by Ecosistema Urbano,
+    whose blog you will find at http://ecosistemaurbano.org
+
+    This theme was built by Franco Albanes,
+    whose blog you will find at http://www.francoalbanes.com/
+    
+    The CSS, XHTML and design is released under GPL:
+    http://www.opensource.org/licenses/gpl-license.php
+
+*/
+body{margin:0; padding:0; height:100%;
+font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#464646;
+}
+h1,
+h2,
+h3,
+h4 {
+    text-align: left;
+    font-weight: bold;
+    color: #60BCBE!important;
+    text-transform: uppercase;
+    border-bottom: 1px solid #EA4C3C
+}
+h5 {
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    color: #EA4C3C!important;
+    text-transform: uppercase;
+    border-bottom: 0px!important
+}
+h6 {
+    text-align: left;
+    font-weight: bold;
+    color: #60BCBE!important;
+    text-transform: uppercase;
+    border-bottom: 0px!important
+}
+ul.children{ list-style:none}
+a{
+    text-decoration: none;
+    color: #60BCBE!important;
+    text-transform: uppercase;
+    font-weight: bold
+}
+a:link {
+    text-decoration: none;
+    color: #60BCBE!important;
+    text-transform: uppercase;
+    font-weight: bold
+}
+a:visited {
+    text-decoration: none;
+    color: #60BCBE!important;
+}
+a:active {
+    text-decoration: none;
+    color: #60BCBE!important;
+}
+a:hover {
+    text-decoration: none;
+    color: #EA4C3C!important;
+}
+.contenedor {
+    width: 100%;
+    padding: 0px;
+    overflow: hidden;
+}
+#topNavi{
+    font-family: Arial, Helvetica, sans-serif!important;
+    font-size: 15px!important;
+    font-weight: bold;
+    color: #fff!important;
+    background-color: transparent;
+    border: 0;
+    top:0;
+    position: absolute;
+    width: 100%;
+}
+#topNavi a:link, #topNavi a:visited, #topNavi a:active{color:#fff!important;}
+#topNavi a:hover{color:#EA4C3C!important;}
+#topNavi a.current {color: #EA4C3C!important}
+
+.mainNavi{width:100%; margin:0; padding:0; list-style:none; clear:both; text-align:center; font-size:1em; text-transform:uppercase; font-weight:bold; letter-spacing:0.2em;color: #fff}
+/*wordpress current MENU*/
+.menu-item a{color: #fff!important;display:block}
+.menu-item{width:33.33333333%; text-align:center; display:block; position:relative; padding:0; margin:0; float:left; line-height:4.5em}
+.menu-item:hover{background-color: #60BCBE}
+.current-menu-item{background-color: #fff!important;color: #EA4C3C!important;}
+.current-menu-item a{color: #EA4C3C!important;}
+.dropdown-menu{
+    overflow: hidden;
+}
+
+/*VIDEO*/
+.vidBg {
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -100
+}
+.vidBg video {
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+   /* background: url(../images/headerImage.jpg) no-repeat center center fixed;*/
+    background-size: cover;
+    transition: 1s opacity;
+    display: inline-block;
+    object-fit: contain
+}
+video#bgvid {
+    position: absolute;
+    bottom: 0
+}
+
+.headImg{top:0;  bottom:0;  left:0;  width:100%;  position:absolute;  z-index:-2;background-color: #333}
+.headImg img{width:100%;  height:100%;  object-fit:cover}
+
+.azul {
+    color: #60BCBE!important
+}
+
+#footer{ position:relative;  bottom:0;  width:100%;   height:70px;  padding-top:0.5%;margin-top: 1%;background: #FFF!important}
+#footer img{padding:0.5%;width: 148px;}
+
+.searchTitle {
+    color: #EA4C3C!important;
+    font-size: 2rem!important;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 1%
+}
+.participa p img{width:100%; height:auto; text-align:center}*/
+.green{ color:#61bcbf!important;  font-weight:bold}
+.red{ color:#EA4C3C!important;  font-weight:bold}
+
+/***POST META DATA CUSTOM FIELDS ***/
+
+ul.post-meta {
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+}
+.post-meta li{
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+}
+.post-meta-key{
+    display: none;
+}
+
+/*****************************************/
+.customContainer{width:850px; height:auto; position:relative; margin:0 auto; padding:0px}
+
+.header{margin:0; position:relative; vertical-align:top; top:-5px;width: 100%;}
+#A{width:100%; height:100vh; margin:0; position:relative; vertical-align:top; top:0}
+#B{width:100%; height:85vh; margin:0; position:relative; vertical-align:top; top:0}
+#logo{position:relative; margin:0 auto; top:25%; text-align:center}
+
+.catDesc{display:table; height: 100%;}
+.catBox{vertical-align: top;display: table-cell;height:100%;}
+#catImg{width: 20%;height: 100%;vertical-align: middle;text-align: center;}
+#catImg img{width: 150px;} /*ADD CATEGORIES AS SVG*/
+#desc{width:80%;text-align: justify;}
+
+#tag{height:400px;  margin-top:4%; overflow: hidden; position: relative;}
+#infoTag{width:55%; padding:1%; margin:0 auto; text-align:center; position:absolute; left:30%; margin-left:-65px; top:50%; margin-top:-50px}
+#infoTag h4 {text-align: center;color: #fff!important;background: rgba(234, 76, 60, 1);padding: 2%;}
+#infoTag h5 {text-align: center;color: #fff!important;background: rgba(241,170,37,0.6);padding: 2%;}
+
+#avatar{ width:111px;  margin-left:81%;  margin-top:2%;  position:absolute;  display:block}
+#avatar img{ z-index:100}
+
+#helpImg{margin-bottom:0px; display:block}
+#helpImg img{width:818px}
+
+/*WORDPRESS GALLERY*/
+figure.gallery-item {
+    float: left;
+    margin: 66px;
+}
+/*WORDPRESS IMAGE CAPTION*/
+figcaption.wp-caption-text {
+    color: #a7a7a7;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: right;
+    margin-top: 3px;
+}
+
+#helper{padding:1px; text-align:center; margin-top:-65px;background-color: #5FBCBE}
+#helper:hover{background-color: #EA4C3C} 
+#helper p {color: #fff!important; font-size:10pt!important;}
+#helper h2 {color: #FFF!important;border-bottom: 1px solid #C0DFE0;font-size:24pt!important;}
+
+.postImage img{width:100%;  height:100%;  object-fit:cover!important;  padding:0;  margin:0;  z-index:-2}*/
+
+#widBox{position:relative; width:100%; display:block; float:left; margin-bottom:1%}
+#widBox h3{text-align:left}
+#widBox p{margin-left:13%}
+
+.gifBanner{padding-top:0; background-color:#60BCBE; text-align:center; padding-bottom:2px}
+.gifBanner p{text-align:justify; color:#fff!important; padding:0px 16px 0 13px; font-weight:bold; font-size:1.3em!important}
+.gifBanner:hover{background-color:#EA4C3C}
+.gifBanner img{width:100%; height:auto}
+
+/*ANIMATED BANNER*/
+.b{border: 1px solid #000}
+
+.textwidget{ font-size:1em!important;  color:#fff!important}
+.widget-title{text-align:center; color:#fff!important}
+.formContainer{width:209px; margin:3%}
+
+#parrafo{text-align:justify;margin-top: 15px;margin-bottom: 20px;}
+#parrafo img{display: block;margin: 0 auto; height: auto;}/*USED TO HAVE WIDTH 100%*/
+
+a.destaca:link {
+    background: url(images/bannerBubble.svg) no-repeat center center;
+    background-position: 98%;
+    background-color:#5fbfc0;
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    padding-top: 66px;
+    padding-left: 21px;
+    font-size: 1.3em;
+    color: #fff!important;
+    font-weight:bold;text-transform:uppercase;
+    animation: blink 2s step-end infinite;    
+}
+@keyframes blink {
+    0% {background-color: #EA4C3C}
+    50% {background-color: #60BCBE}
+}
+a.destaca:visited{
+    color: #fff!important;
+}
+
+a.dest2:link{
+    background: url(images/bannerBubble.svg) no-repeat center center;
+    background-position: 98%;
+    background-color:#F2AB27;
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    padding-top: 66px;
+    padding-left: 21px;
+    font-size: 1.3em;
+    color: #fff!important;
+    font-weight:bold;text-transform:uppercase;
+    animation: blinks 2s step-end infinite;    
+}
+@keyframes blinks {
+    0% {background-color: #F2AB27}
+    50% {background-color: #577A9C}
+}
+a.dest2:visited{
+    color: #fff!important;
+}
+
+#flickr{text-align:center;margin-top: 15px;margin-bottom: 15px;}
+.fluid{width:100%!important}
+.bottom{position:absolute; bottom:0px; right:0px}
+
+#categories { height: auto;margin-top: 2%;margin-bottom: 2%;padding: 14px; text-align: center}
+#categories a.current {-webkit-filter: opacity(12%)!important;filter: opacity(12%)!important}
+#categories img{margin-right: 6%;}
+
+#localinGif{z-index: -3;}
+.asideParticipa{
+    padding: 0px 16px 0 13px;
+    font-weight: bold;
+    font-size: 1.3em!important;
+    text-align: center;
+    text-transform: uppercase;
+}
+.widget-title{
+    text-align: center;
+    color: #fff!important;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 4rem;
+}
+p.headTitle{margin-top: 12px!important;}
+
+/*FLICKR GALLERY SCRIPT*/
+
+img.afg-img{width: 124px!important;    -webkit-box-shadow: 0 0 0px rgba(0, 0, 0, 0.6);}
+div.afg-cell{padding-bottom: 11px;padding-right: 21px;}
+
+/*COMENT FORM*/
+textarea{width:100%; position:relative}
+input{width:100%}
+form#commentform{ width:50%}
+
+/**** MEDIA QUERIES ****/
+
+/*MOBILE*/
+@media only screen and (max-device-width: 480px) {
+    img.afg-img {
+        width: 42px!important;
+    }
+    #destacado{
+        height: 52px;
+    }
+    #desc{
+         font-size: 1.3rem;
+    }
+    a.destaca:link{
+        background: none;
+        padding-top: 10%;
+        padding-left: 0%;
+        font-size: 1.3em;
+    }
+    #parrafo img{width: 100%;}
+
+    .vidBg {
+        background: url(images/headerImage.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    #bgvid{display:none}
+
+    #logo img{  width:70%!important;   margin-top:0%}
+    .mainNavi >li{  width:100%;   line-height:2.5em}
+    .catDesc{  width:100%!important;   margin-top:7%!important}
+    #catImg{display: none}
+
+    .customContainer{  width:100%}
+    #tag{  height:310px;   padding:0%;   margin-top:0%;   margin-bottom:9%}
+
+    #avatar{  width:100%;   margin-left:0}
+    #avatar img{  width:22%;   float:right;   margin-right:3%;   margin-top:1%}
+
+    #infoTag{  top:50%;   width:100%;   left:0%;           margin-left:0px}
+    #infoTag h4{  padding:5%!important}
+
+    #footer{  padding-top:3.5%;   width:100%}
+    #footer img{  width:43%;   padding:1%}
+    form#commentform{width:100%}
+    .destBurb{display: none;}
+}
+/*OTHERS*/
+@media screen and (min-width:481px) and (max-width:780px){
+    .customContainer{  width:100%}
+    .mainNavi >li{  width:100%;   line-height:2.5em}
+
+    img.afg-img {
+        width: 42px!important;
+
+    }
+    
+}

@@ -1,0 +1,135 @@
+
+/*.bg {
+    background: rgba(255, 255, 255, 0.9)
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent
+}
+.navbar-default >li >a:link {
+    color: #fff!important
+}
+.navbar-default >li >a:hover {
+    color: #EA4C3C!important
+}
+.mainNavi >li {
+    background-color: transparent
+}
+.mainNavi >li >a {
+    background-color: transparent;
+    color: #fff!important
+}
+.mainNavi >li >a:hover {
+    background-color: #60BCBE;
+    color: #fff!important
+}
+.mainNavi a.current {
+    background-color: #fff;
+    color: #EA4C3C!important
+}
+.categories a.current {
+    -webkit-filter: opacity(12%)!important;
+    filter: opacity(12%)!important
+}
+#content {
+    background: #fff!important
+}
+#helper {
+    background-color: #5FBCBE
+}
+#helper p {
+    color: #fff!important
+}
+#helper h2 {
+    color: #EA4C3C!important;
+    border-bottom: 1px solid #C0DFE0
+}*/
+/*footer {
+    background: #60BCBE !important
+}
+footer p {
+    color: #fff!important
+}
+footer a:visited {
+    text-decoration: none;
+    color: #fff!important
+}
+footer a:link {
+    text-decoration: none;
+    color: #fff!important;
+    text-transform: uppercase;
+    font-weight: bold
+}
+footer a:hover {
+    text-decoration: none;
+    color: #EA4C3C!important;
+    text-transform: uppercase;
+    font-weight: bold
+}
+.tinyCredit {
+    font-size: 6pt;
+    letter-spacing: 1px;
+    color: #333
+}*/
+
+/*.searchTitle {
+    color: #EA4C3C!important;
+    font-size: 2rem!important;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 1%
+}
+#infoTag h4 {
+    text-align: center;
+    color: #fff!important;
+    border-bottom: 0;
+    background: rgba(234, 76, 60, 1);
+    padding: 2%;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 0px
+}
+.icolor {
+    color: #C0DFE0 !important
+}
+.navIcon {
+    color: #FFF!important
+}
+.navIcon:hover {
+    color: #EA4C3C!important
+}
+.navIcon a.current {
+    color: #EA4C3C!important
+}
+.headImgV {
+    width: 0!important
+}
+.vidBg {
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -100
+}
+.vidBg video {
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url(../images/framePoster.jpg) no-repeat center center fixed;
+    background-size: cover;
+    transition: 1s opacity;
+    display: inline-block;
+    object-fit: contain
+}
+video#bgvid {
+    position: absolute;
+    bottom: 0
+}
+*/
