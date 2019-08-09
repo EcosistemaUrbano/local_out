@@ -15,5 +15,3 @@ Our theme has been sucesfully used in our projects and we develope new versions 
 project last name.
 
 The most recent version would be Local Out - Ver: Encarnacion
-
-The Local Out theme it's under frequent debugging and further development.
